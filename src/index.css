@@ -162,6 +162,10 @@ a {
   mask-image: radial-gradient(circle at center, black, transparent 82%);
 }
 
+#products h2 {
+  color: #ffffff !important;
+}
+
 .project-shine {
   position: absolute;
   inset: -100% auto auto -70%;
