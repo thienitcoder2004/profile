@@ -20,8 +20,8 @@ const personalProjects = [
   {
     title: 'Restaurant Management & Ordering System',
     subtitle: 'Restaurant operations, online ordering and revenue management',
-    visibility: 'Private repository',
-    repo: null,
+    visibility: 'Public repository',
+    repo: 'https://github.com/thienitcoder2004/websiterestaurant',
     description:
       'A personal ASP.NET Core restaurant system that combines customer ordering and reservations with operational tools for staff and administrators.',
     highlights: [
@@ -56,7 +56,7 @@ function PersonalProjectsSection() {
             <p className="text-xs font-extrabold uppercase tracking-[0.24em] text-sky-600 dark:text-sky-400">Personal projects</p>
           </div>
           <h2 className="text-3xl font-black tracking-[-0.03em] text-slate-950 sm:text-4xl lg:text-[2.75rem] dark:text-white">
-            End-to-end .NET projects
+            Real-world systems built with .NET
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-400">
             Personal projects where I applied backend architecture, database design, authentication, payments and real business workflows outside my internship work.
@@ -111,7 +111,7 @@ function PersonalProjectsSection() {
                     </a>
                   ) : (
                     <span className="inline-flex items-center rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-bold text-slate-500 dark:border-white/10 dark:bg-white/[0.035] dark:text-slate-400">
-                      Private GitHub repository
+                      Repository unavailable
                     </span>
                   )}
                 </div>
