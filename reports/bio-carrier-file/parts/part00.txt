@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trilingual Bio-Carrier Improvement Report</title>
+<style>
+:root{
+  --red:#b3121b; --red-dark:#8f0e15; --red-soft:#f9e9eb;
+  --gray-900:#26282b; --gray-700:#55595e; --gray-500:#7b8086;
+  --gray-300:#d9dcdf; --gray-200:#e9ebed; --gray-100:#f5f6f7;
+  --white:#ffffff; --green:#2b7a55; --amber:#9b6410;
+}
+*{box-sizing:border-box;scroll-behavior:smooth}
+html{scroll-padding-top:76px}
+body{
+  margin:0;background:var(--gray-100);color:var(--gray-900);
+  font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.55;
+}
+header{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid var(--gray-300)}
+.topbar{max-width:1080px;margin:auto;padding:8px 16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.brand{font-weight:700;color:var(--red);padding-right:10px;border-right:1px solid var(--gray-300)}
+.langs{display:flex;gap:5px}
+.lang-btn{
+  border:1px solid var(--gray-300);background:#fff;color:var(--gray-700);
+  font:700 11px Arial;padding:6px 10px;border-radius:5px;cursor:pointer
+}
+.lang-btn.active{background:var(--red);border-color:var(--red);color:#fff}
+.toc{display:flex;gap:4px;overflow-x:auto;white-space:nowrap;flex:1}
+.toc a{color:var(--gray-700);text-decoration:none;font-size:11px;font-weight:700;padding:6px 8px;border-radius:5px}
+.toc a:hover{background:var(--red-soft);color:var(--red)}
+.page{max-width:1080px;margin:18px auto 50px;padding:0 16px}
+.lang-page{display:none}
+.lang-page.active{display:block}
+.cover{background:#fff;border:1px solid var(--gray-300);border-top:5px solid var(--red);padding:24px}
+.cover h1{margin:0 0 8px;font-size:20px;line-height:1.25}
+.cover p{margin:0;color:var(--gray-700)}
+.quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.quick-card{border:1px solid var(--gray-300);background:var(--gray-100);padding:12px}
+.quick-card strong{display:block;font-size:12px;margin-bottom:4px}
+.quick-card.issue{border-left:4px solid var(--red)}
+.quick-card.risk{border-left:4px solid var(--gray-700)}
+
+section{margin-top:18px;background:#fff;border:1px solid var(--gray-300);padding:18px}
+.section-title{margin:0 0 12px;padding-left:9px;border-left:4px solid var(--red);font-size:14px;line-height:1.3}
+.section-note{color:var(--gray-700);margin:-4px 0 12px}
+.purpose-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.purpose-item{border:1px solid var(--gray-300);padding:12px}
+.purpose-no{display:inline-flex;width:24px;height:24px;align-items:center;justify-content:center;border-radius:50%;background:var(--red);color:#fff;font-weight:700;margin-bottom:7px}
+.purpose-item strong{display:block;margin-bottom:4px}
+
+.scope-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.scope-card{border:1px solid var(--gray-300);background:#fff}
+.scope-photo{height:250px;background:#efefef;overflow:hidden}
+.scope-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.scope-body{padding:12px}
+.scope-body h3{font-size:13px;margin:0 0 4px}
+.scope-body p{margin:0;color:var(--gray-700)}
+
+.status-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.status{border:1px solid var(--gray-300);padding:14px}
+.status.problem1{border-top:4px solid var(--red)}
+.status.problem2{border-top:4px solid var(--gray-700)}
+.status h3{font-size:13px;margin:0 0 7px}
+.status ul{margin:0;padding-left:18px}
+.status li{margin:4px 0}
+.simple-flow{
+  margin-top:10px;background:var(--gray-100);border:1px solid var(--gray-300);
+  padding:12px;display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap
+}
+.flow-box{background:#fff;border:1px solid var(--gray-300);padding:9px 11px;min-width:180px;text-align:center}
+.flow-box b{display:block}
+.flow-arrow{font-weight:700;color:var(--red);font-size:16px}
+
+.solution-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.media-card{border:1px solid var(--gray-300);background:#fff}
+.media-card.recommend{border:2px solid var(--red)}
+.media-photo{height:180px;background:#efefef;overflow:hidden}
+.media-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.media-photo.contain img{object-fit:contain;background:#111}
+.media-body{padding:12px}
+.media-body h3{font-size:13px;margin:0 0 4px}
+.media-desc{color:var(--gray-700);margin-bottom:10px}
+.box-label{font-weight:700;margin-top:8px;margin-bottom:3px}
+.box-label.good{color:var(--green)}
+.box-label.bad{color:var(--red)}
+.media-body ul{margin:0;padding-left:17px}
+.media-body li{margin:3px 0}
+.result-tag{margin-top:10px;padding:6px 8px;background:var(--gray-100);border-left:3px solid var(--gray-700);font-weight:700}
+.result-tag.best{background:var(--red-soft);border-left-color:var(--red);color:var(--red-dark)}
+.result-tag.no{border-left-color:var(--red);color:var(--red)}
+
+table{width:100%;border-collapse:collapse;font-size:12px}
+th,td{border:1px solid var(--gray-300);padding:9px;text-align:center;vertical-align:middle}
+th{background:var(--gray-200);font-weight:700}
+th:first-child,td:first-child{text-align:left}
+.good{color:var(--green);font-weight:700}
+.medium{color:var(--amber);font-weight:700}
+.bad{color:var(--red);font-weight:700}
+
+.chart-wrap{margin-top:12px;border:1px solid var(--gray-300);padding:14px}
+.chart-title{font-size:13px;font-weight:700;margin-bottom:4px}
+.chart-sub{color:var(--gray-700);margin-bottom:12px}
+.chart{height:230px;display:flex;align-items:flex-end;justify-content:center;gap:50px;border-bottom:1px solid var(--gray-300);padding:0 15px}
+.bar-group{text-align:center;width:130px}
+.bar-box{height:170px;display:flex;align-items:flex-end;justify-content:center}
+.bar{width:62px;color:#fff;font-weight:700;padding-top:5px;border-radius:5px 5px 0 0}
+.graybar{background:#62666b;height:102px}
+.redbar{background:var(--red);height:170px}
+.lightbar{background:#aeb2b6;height:68px}
+.bar-name{margin-top:8px;font-weight:700}
+.bar-note{font-size:11px;color:var(--gray-700);margin-top:2px}
+
+.timeline-total{margin-top:0;padding:10px 12px;background:var(--red-soft);border-left:4px solid var(--red);font-weight:700}
+
+.effect-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.effect{border:1px solid var(--gray-300);padding:11px;border-top:3px solid var(--red)}
+.effect strong{display:block;margin-bottom:4px}
+
+.conclusion{display:grid;grid-template-columns:1.25fr .75fr;gap:12px}
+.final-box{background:var(--red-soft);border:1px solid #e3bfc2;border-left:5px solid var(--red);padding:15px}
+.final-box h3{font-size:14px;margin:0 0 8px;color:var(--red-dark)}
+.final-box p{margin:6px 0}
+.rank-box{border:1px solid var(--gray-300);padding:14px}
+.rank-box h3{font-size:13px;margin:0 0 8px}
+.rank-item{display:grid;grid-template-columns:26px 1fr;gap:7px;margin:8px 0;align-items:start}
+.rank-no{width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--gray-200);font-weight:700}
+.rank-item:first-of-type .rank-no{background:var(--red);color:#fff}
+
+footer{text-align:center;color:var(--gray-500);font-size:11px;margin-top:18px}
+
+@media(max-width:850px){
+  .purpose-grid,.scope-grid,.status-grid,.solution-grid,.effect-grid,.conclusion{grid-template-columns:1fr}
+  .quick{grid-template-columns:1fr}
+  .chart{gap:15px}
+  .bar-group{width:95px}
+}
+@media print{
+  header{display:none}
+  body{background:#fff}
+  .page{max-width:none;margin:0;padding:0}
+  section,.cover{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <div class="brand" id="brandText">BÁO CÁO GIÁ THỂ VI SINH</div>
+    <div class="langs">
+      <button class="lang-btn" data-lang="en">ENGLISH</button>
+      <button class="lang-btn" data-lang="ko">한국어</button>
+      <button class="lang-btn active" data-lang="vi">VIỆT NAM</button>
+    </div>
+    <div class="toc" id="toc"></div>
+  </div>
+</header>
+
+<div class="page">
+  <div class="lang-page" id="page-en">
+<div class="cover">
+  <h1>EVALUATION AND PROPOSAL FOR BIO-CARRIER REPLAC
