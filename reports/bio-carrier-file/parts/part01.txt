@@ -1,0 +1,144 @@
+EMENT</h1>
+  <p>Objective: solve 2 current issues at the wastewater treatment plant.</p>
+  <div class="quick">
+    <div class="quick-card issue"><strong>Issue 1: High Total Nitrogen (TN)</strong>TN is close to the discharge limit → more safety margin is needed to avoid additional treatment.</div>
+    <div class="quick-card risk"><strong>Issue 2: Current carrier is breaking and drifting</strong>Broken carrier pieces may clog pipes and pumps and may affect the MBR membrane.</div>
+  </div>
+</div>
+
+<section id="en-purpose">
+  <h2 class="section-title">1. PURPOSE</h2>
+  <div class="purpose-grid">
+    <div class="purpose-item"><div class="purpose-no">1</div><strong>Reduce the risk of high TN</strong>Create a larger safety margin from the discharge limit.</div>
+    <div class="purpose-item"><div class="purpose-no">2</div><strong>Prevent carrier pieces from entering equipment</strong>Reduce the risk of clogging pipes, pumps, and the MBR membrane.</div>
+    <div class="purpose-item"><div class="purpose-no">3</div><strong>Limit additional cost</strong>Reduce the risk of unclogging, repair, or additional wastewater treatment.</div>
+  </div>
+</section>
+
+<section id="en-scope">
+  <h2 class="section-title">2. APPLICATION SCOPE</h2>
+  <p class="section-note">Applied to the addition/change of bio-carrier media at Factory 1 wastewater treatment plant.</p>
+  <div class="scope-grid">
+    <div class="scope-card">
+      <div class="scope-photo"><img src="" data-img="1" alt="Aerotank"></div>
+      <div class="scope-body">
+        <h3>Aerotank tank</h3>
+        <p>Application area 1: Aerotank tank at Factory 1 wastewater treatment plant.</p>
+      </div>
+    </div>
+    <div class="scope-card">
+      <div class="scope-photo"><img src="" data-img="2" alt="Anoxic"></div>
+      <div class="scope-body">
+        <h3>Anoxic tank</h3>
+        <p>Application area 2: Anoxic tank at Factory 1 wastewater treatment plant.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="en-current">
+  <h2 class="section-title">3. CURRENT STATUS</h2>
+  <div class="status-grid">
+    <div class="status problem1"><h3>A. High Total Nitrogen</h3><ul><li>Ammonium (NH₄⁺) is currently being treated well.</li><li>However, Total Nitrogen (TN) remains high and close to the limit.</li><li>If TN increases further → operation adjustment or additional treatment may be required.</li></ul></div>
+    <div class="status problem2"><h3>B. Current carrier is breaking / drifting</h3><ul><li>The plant is currently using small attached-growth carriers.</li><li>Carrier breakage has already occurred during operation.</li><li>Small pieces drift with the water → risk of clogging pipes, pumps, and the MBR.</li></ul></div>
+  </div>
+  <div class="simple-flow">
+    <div class="flow-box"><b>Current</b>NH₄⁺ treatment is good</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box"><b>Remaining issue</b>TN is still high</div>
+    <div class="flow-arrow">+</div>
+    <div class="flow-box"><b>Equipment risk</b>Carrier breakage / drifting</div>
+  </div>
+</section>
+
+<section id="en-solution">
+  <h2 class="section-title">4. SOLUTION — COMPARISON OF 3 BIO-CARRIER TYPES</h2>
+  <p class="section-note">Each option is explained as: <b>Simple explanation → Advantages → Disadvantages</b>.</p>
+  <div class="solution-grid">
+    <div class="media-card">
+      <div class="media-photo"><img src="" data-img="3" alt="sphere"></div>
+      <div class="media-body">
+        <h3>1. Spherical carrier</h3>
+        <div class="media-desc"><b>Simple explanation:</b> a loose carrier, larger than the current type.</div>
+        <div class="box-label good">Advantages</div>
+        <ul><li>Easy to add and replace.</li><li>Larger size → less likely to pass through small gaps.</li><li>Can support nitrogen-removal bacteria.</li></ul>
+        <div class="box-label bad">Disadvantages</div>
+        <ul><li>Still a loose carrier → drifting risk remains.</li><li>A retaining screen is required.</li><li>If it escapes, it can still cause clogging.</li></ul>
+        <div class="result-tag">Assessment: INTERMEDIATE OPTION</div>
+      </div>
+    </div>
+
+    <div class="media-card recommend">
+      <div class="media-photo contain"><img src="" data-img="4" alt="fiber"></div>
+      <div class="media-body">
+        <h3>2. Fiber carrier</h3>
+        <div class="media-desc"><b>Simple explanation:</b> fibers are fixed to a frame and do not move freely in the tank.</div>
+        <div class="box-label good">Advantages</div>
+        <ul><li>Almost no drifting when properly fixed.</li><li>Very low risk of clogging pipes, pumps, or MBR.</li><li>Stable biomass attachment; suitable to support TN reduction.</li><li>Suitable for application in Aerotank and Anoxic tanks.</li></ul>
+        <div class="box-label bad">Disadvantages</div>
+        <ul><li>A fixing frame is required.</li><li>Fiber spacing must be properly arranged.</li><li>Initial installation takes longer than loose media.</li></ul>
+        <div class="result-tag best">Assessment: RECOMMENDED OPTION</div>
+      </div>
+    </div>
+
+    <div class="media-card">
+      <div class="media-photo"><img src="" data-img="5" alt="small"></div>
+      <div class="media-body">
+        <h3>3. Small attached-growth carrier</h3>
+        <div class="media-desc"><b>Simple explanation:</b> this is the type currently in use.</div>
+        <div class="box-label good">Advantages</div>
+        <ul><li>Microorganisms attach easily.</li><li>Easy to add to the tank.</li><li>Currently supports ammonium treatment well.</li></ul>
+        <div class="box-label bad">Disadvantages</div>
+        <ul><li>Breakage has already occurred.</li><li>Small pieces can drift into pipes.</li><li>Risk of pump clogging and impact on MBR.</li></ul>
+        <div class="result-tag no">Assessment: NOT RECOMMENDED TO CONTINUE</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="en-compare">
+  <h2 class="section-title">5. COMPARISON</h2>
+  <table>
+    <thead>
+      <tr><th>Management concern</th><th>Spherical</th><th>Fiber</th><th>Current small carrier</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Support for TN reduction</td><td class="medium">Medium</td><td class="good">Good</td><td class="medium">Medium</td></tr>
+      <tr><td>Risk of carrier drifting</td><td class="medium">Yes</td><td class="good">Very low</td><td class="bad">High / already occurred</td></tr>
+      <tr><td>Risk of clogging pipes, pumps, MBR</td><td class="medium">Yes</td><td class="good">Very low</td><td class="bad">High</td></tr>
+      <tr><td>Risk of additional cost</td><td class="medium">Medium</td><td class="good">Low</td><td class="bad">High</td></tr>
+      <tr><td><b>Overall assessment</b></td><td><b>MEDIUM</b></td><td class="good"><b>BEST</b></td><td class="bad"><b>HIGH RISK</b></td></tr>
+    </tbody>
+  </table>
+
+  <div class="chart-wrap">
+    <div class="chart-title">Bar chart — Suitability for the 2 current issues</div>
+    <div class="chart-sub">5 points = most suitable; 1 point = least suitable.</div>
+    <div class="chart">
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar graybar">3/5</div></div>
+        <div class="bar-name">Spherical</div>
+        <div class="bar-note">Medium</div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar redbar">5/5</div></div>
+        <div class="bar-name">Fiber</div>
+        <div class="bar-note">Recommended</div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar lightbar">2/5</div></div>
+        <div class="bar-name">Small carrier</div>
+        <div class="bar-note">High risk</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="en-time">
+  <h2 class="section-title">6. ESTIMATED INSTALLATION TIME</h2>
+  <div class="timeline-total">Estimated time: approximately 2 weeks after approval and full material preparation.</div>
+</section>
+
+<section id="en-effect">
+  <h2 class="section-title">7. EXPECTED BENEFITS</h2>
+  <div class="effect-g
