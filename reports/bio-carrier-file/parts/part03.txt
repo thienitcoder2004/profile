@@ -1,0 +1,155 @@
+/div>
+    <div class="effect"><strong>방류기준 준수 지원</strong>시스템 안정성 및 TN 안전 여유 향상.</div>
+  </div>
+</section>
+
+<section id="ko-conclusion">
+  <h2 class="section-title">8. 결론</h2>
+  <div class="conclusion">
+    <div class="final-box">
+      <h3>제안: 섬유형 담체 적용</h3>
+      <p><b>이유 1:</b> 총질소 개선 목표에 더 적합함.</p>
+      <p><b>이유 2:</b> 고정형이라 거의 유출되지 않아 배관, 펌프, MBR 막힘 위험을 낮춤.</p>
+      <p><b>이유 3:</b> 1공장 폐수처리장 Aerotank 및 Anoxic 조에 적용하기 적합함.</p>
+    </div>
+    <div class="rank-box">
+      <h3>우선순위</h3>
+      <div class="rank-item"><div class="rank-no">1</div><div><b>섬유형 담체</b><br>우선 적용 권장.</div></div>
+      <div class="rank-item"><div class="rank-no">2</div><div><b>구형 담체</b><br>중간 대안.</div></div>
+      <div class="rank-item"><div class="rank-no">3</div><div><b>소형 부착성 담체</b><br>계속 사용 비추천.</div></div>
+    </div>
+  </div>
+</section>
+</div>
+  <div class="lang-page active" id="page-vi">
+<div class="cover">
+  <h1>ĐÁNH GIÁ VÀ ĐỀ XUẤT THAY ĐỔI GIÁ THỂ VI SINH</h1>
+  <p>Mục tiêu: giải quyết 2 vấn đề hiện tại của trạm xử lý nước thải.</p>
+  <div class="quick">
+    <div class="quick-card issue"><strong>Vấn đề 1: Tổng Nitơ (TN) cao</strong>TN đang gần giới hạn xả thải → cần tăng độ an toàn để tránh phải xử lý bổ sung.</div>
+    <div class="quick-card risk"><strong>Vấn đề 2: Giá thể hiện tại bị bể và trôi</strong>Mảnh giá thể có thể làm nghẹt đường ống, bơm và ảnh hưởng màng MBR.</div>
+  </div>
+</div>
+
+<section id="vi-purpose">
+  <h2 class="section-title">1. MỤC ĐÍCH</h2>
+  <div class="purpose-grid">
+    <div class="purpose-item"><div class="purpose-no">1</div><strong>Giảm rủi ro Tổng Nitơ cao</strong>Tạo thêm khoảng an toàn so với giới hạn xả thải.</div>
+    <div class="purpose-item"><div class="purpose-no">2</div><strong>Ngăn giá thể trôi vào thiết bị</strong>Giảm nguy cơ nghẹt đường ống, bơm và màng MBR.</div>
+    <div class="purpose-item"><div class="purpose-no">3</div><strong>Hạn chế chi phí phát sinh</strong>Giảm nguy cơ thông nghẹt, sửa chữa hoặc xử lý nước thải bổ sung.</div>
+  </div>
+</section>
+
+<section id="vi-scope">
+  <h2 class="section-title">2. PHẠM VI ÁP DỤNG</h2>
+  <p class="section-note">Áp dụng cho việc thay đổi/bổ sung giá thể vi sinh tại trạm xử lý nước thải Nhà máy 1.</p>
+  <div class="scope-grid">
+    <div class="scope-card">
+      <div class="scope-photo"><img src="" data-img="1" alt="Aerotank"></div>
+      <div class="scope-body">
+        <h3>Bể Aerotank</h3>
+        <p>Khu vực áp dụng 1: bể Aerotank tại trạm xử lý nước thải Nhà máy 1.</p>
+      </div>
+    </div>
+    <div class="scope-card">
+      <div class="scope-photo"><img src="" data-img="2" alt="Anoxic"></div>
+      <div class="scope-body">
+        <h3>Bể Anoxic</h3>
+        <p>Khu vực áp dụng 2: bể Anoxic tại trạm xử lý nước thải Nhà máy 1.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="vi-current">
+  <h2 class="section-title">3. HIỆN TRẠNG</h2>
+  <div class="status-grid">
+    <div class="status problem1"><h3>A. Tổng Nitơ cao</h3><ul><li>Amoni (NH₄⁺) hiện đang được xử lý tốt.</li><li>Tuy nhiên Tổng Nitơ (TN) vẫn cao, gần giới hạn.</li><li>Nếu TN tăng thêm → có nguy cơ phải điều chỉnh hoặc xử lý bổ sung.</li></ul></div>
+    <div class="status problem2"><h3>B. Giá thể hiện tại bị bể/trôi</h3><ul><li>Đang sử dụng giá thể dính bám dạng nhỏ.</li><li>Trong vận hành đã có hiện tượng giá thể bị bể.</li><li>Mảnh nhỏ trôi theo nước → nguy cơ nghẹt ống, bơm và MBR.</li></ul></div>
+  </div>
+  <div class="simple-flow">
+    <div class="flow-box"><b>Hiện tại</b>NH₄⁺ xử lý tốt</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box"><b>Còn vấn đề</b>TN vẫn cao</div>
+    <div class="flow-arrow">+</div>
+    <div class="flow-box"><b>Rủi ro thiết bị</b>Giá thể bị bể/trôi</div>
+  </div>
+</section>
+
+<section id="vi-solution">
+  <h2 class="section-title">4. GIẢI PHÁP — SO SÁNH 3 LOẠI GIÁ THỂ</h2>
+  <p class="section-note">Mỗi loại gồm: <b>Hiểu đơn giản → Ưu điểm → Nhược điểm</b>.</p>
+  <div class="solution-grid">
+    <div class="media-card">
+      <div class="media-photo"><img src="" data-img="3" alt="sphere"></div>
+      <div class="media-body">
+        <h3>1. Giá thể dạng cầu</h3>
+        <div class="media-desc"><b>Hiểu đơn giản:</b> giá thể rời, kích thước lớn hơn loại hiện tại.</div>
+        <div class="box-label good">Ưu điểm</div>
+        <ul><li>Dễ bổ sung và thay thế.</li><li>Kích thước lớn hơn → khó lọt qua khe nhỏ hơn.</li><li>Có thể hỗ trợ vi sinh xử lý Nitơ.</li></ul>
+        <div class="box-label bad">Nhược điểm</div>
+        <ul><li>Vẫn là vật rời → còn nguy cơ trôi.</li><li>Cần lưới chắn trong bể.</li><li>Nếu thoát ra ngoài vẫn có thể gây nghẹt.</li></ul>
+        <div class="result-tag">Đánh giá: PHƯƠNG ÁN TRUNG GIAN</div>
+      </div>
+    </div>
+
+    <div class="media-card recommend">
+      <div class="media-photo contain"><img src="" data-img="4" alt="fiber"></div>
+      <div class="media-body">
+        <h3>2. Giá thể dạng sợi</h3>
+        <div class="media-desc"><b>Hiểu đơn giản:</b> sợi được cố định vào khung, không chạy tự do trong bể.</div>
+        <div class="box-label good">Ưu điểm</div>
+        <ul><li>Hầu như không trôi khi cố định chắc.</li><li>Nguy cơ nghẹt ống, bơm, MBR rất thấp.</li><li>Giữ vi sinh ổn định, phù hợp hỗ trợ giảm TN.</li><li>Phù hợp để áp dụng cho bể Aerotank và Anoxic.</li></ul>
+        <div class="box-label bad">Nhược điểm</div>
+        <ul><li>Cần làm khung cố định.</li><li>Cần bố trí khoảng cách sợi hợp lý.</li><li>Thi công ban đầu lâu hơn loại rời.</li></ul>
+        <div class="result-tag best">Đánh giá: PHƯƠNG ÁN ƯU TIÊN</div>
+      </div>
+    </div>
+
+    <div class="media-card">
+      <div class="media-photo"><img src="" data-img="5" alt="small"></div>
+      <div class="media-body">
+        <h3>3. Dính bám dạng nhỏ</h3>
+        <div class="media-desc"><b>Hiểu đơn giản:</b> là loại đang sử dụng hiện tại.</div>
+        <div class="box-label good">Ưu điểm</div>
+        <ul><li>Vi sinh dễ bám.</li><li>Dễ bổ sung vào bể.</li><li>Hiện đang hỗ trợ xử lý Amoni tốt.</li></ul>
+        <div class="box-label bad">Nhược điểm</div>
+        <ul><li>Đã có hiện tượng bị bể.</li><li>Mảnh nhỏ dễ trôi vào đường ống.</li><li>Có nguy cơ nghẹt bơm và ảnh hưởng màng MBR.</li></ul>
+        <div class="result-tag no">Đánh giá: KHÔNG ƯU TIÊN TIẾP TỤC</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="vi-compare">
+  <h2 class="section-title">5. SO SÁNH</h2>
+  <table>
+    <thead>
+      <tr><th>Điều cần quan tâm</th><th>Dạng cầu</th><th>Dạng sợi</th><th>Dính bám nhỏ hiện tại</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Hỗ trợ giảm Tổng Nitơ</td><td class="medium">Vừa</td><td class="good">Tốt</td><td class="medium">Vừa</td></tr>
+      <tr><td>Nguy cơ giá thể trôi</td><td class="medium">Có</td><td class="good">Rất thấp</td><td class="bad">Cao / đã xảy ra</td></tr>
+      <tr><td>Nguy cơ nghẹt ống, bơm, MBR</td><td class="medium">Có</td><td class="good">Rất thấp</td><td class="bad">Cao</td></tr>
+      <tr><td>Nguy cơ phát sinh thêm chi phí</td><td class="medium">Trung bình</td><td class="good">Thấp</td><td class="bad">Cao</td></tr>
+      <tr><td><b>Đánh giá tổng thể</b></td><td><b>TRUNG BÌNH</b></td><td class="good"><b>TỐT NHẤT</b></td><td class="bad"><b>RỦI RO CAO</b></td></tr>
+    </tbody>
+  </table>
+
+  <div class="chart-wrap">
+    <div class="chart-title">Biểu đồ cột — Mức độ phù hợp với 2 vấn đề hiện tại</div>
+    <div class="chart-sub">5 điểm = phù hợp nhất; 1 điểm = ít phù hợp nhất.</div>
+    <div class="chart">
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar graybar">3/5</div></div>
+        <div class="bar-name">Dạng cầu</div>
+        <div class="bar-note">Trung bình</div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar redbar">5/5</div></div>
+        <div class="bar-name">Dạng sợi</div>
+        <div class="bar-note">Ưu tiên</div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar lightbar">2/5</div></div>
+        <div class="bar-name">Dính bám nhỏ</div>
