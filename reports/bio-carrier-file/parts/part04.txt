@@ -1,0 +1,72 @@
+div>
+        <div class="bar-note">Rủi ro cao</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="vi-time">
+  <h2 class="section-title">6. THỜI GIAN LẮP ĐẶT DỰ KIẾN</h2>
+  <div class="timeline-total">Thời gian dự kiến: khoảng 2 tuần sau khi được phê duyệt và chuẩn bị đầy đủ vật tư.</div>
+</section>
+
+<section id="vi-effect">
+  <h2 class="section-title">7. HIỆU QUẢ DỰ KIẾN</h2>
+  <div class="effect-grid">
+    <div class="effect"><strong>TN ổn định hơn</strong>Hỗ trợ tăng độ an toàn cho chỉ tiêu Tổng Nitơ.</div>
+    <div class="effect"><strong>Giảm nguy cơ nghẹt</strong>Giá thể sợi không trôi tự do vào đường ống, bơm và MBR.</div>
+    <div class="effect"><strong>Giảm chi phí phát sinh</strong>Giảm nguy cơ thông nghẹt, sửa thiết bị và thay giá thể thất thoát.</div>
+    <div class="effect"><strong>Hỗ trợ tuân thủ xả thải</strong>Giúp hệ thống ổn định hơn và tăng khoảng an toàn với TN.</div>
+  </div>
+</section>
+
+<section id="vi-conclusion">
+  <h2 class="section-title">8. KẾT LUẬN</h2>
+  <div class="conclusion">
+    <div class="final-box">
+      <h3>ĐỀ XUẤT: CHỌN GIÁ THỂ DẠNG SỢI</h3>
+      <p><b>Lý do 1:</b> phù hợp hơn với mục tiêu cải thiện Tổng Nitơ.</p>
+      <p><b>Lý do 2:</b> được cố định nên hầu như không trôi, giảm nguy cơ nghẹt đường ống, bơm và MBR.</p>
+      <p><b>Lý do 3:</b> phù hợp để áp dụng cho bể Aerotank và Anoxic tại trạm xử lý nước thải Nhà máy 1.</p>
+    </div>
+    <div class="rank-box">
+      <h3>Thứ tự đề xuất</h3>
+      <div class="rank-item"><div class="rank-no">1</div><div><b>Dạng sợi</b><br>Ưu tiên triển khai.</div></div>
+      <div class="rank-item"><div class="rank-no">2</div><div><b>Dạng cầu</b><br>Phương án trung gian.</div></div>
+      <div class="rank-item"><div class="rank-no">3</div><div><b>Dính bám nhỏ</b><br>Không ưu tiên tiếp tục.</div></div>
+    </div>
+  </div>
+</section>
+</div>
+</div>
+
+<script>
+const tocText = {
+  vi: ['1. Mục đích', '2. Phạm vi áp dụng', '3. Hiện trạng', '4. Giải pháp', '5. So sánh', '6. Thời gian', '7. Hiệu quả', '8. Kết luận'],
+  en: ['1. Purpose', '2. Application scope', '3. Current status', '4. Solution', '5. Comparison', '6. Time', '7. Benefits', '8. Conclusion'],
+  ko: ['1. 목적', '2. 적용 범위', '3. 현재 상태', '4. 개선안', '5. 비교', '6. 기간', '7. 기대 효과', '8. 결론']
+};
+const brandText = {
+  vi: 'BÁO CÁO GIÁ THỂ VI SINH',
+  en: 'BIO-CARRIER REPORT',
+  ko: '미생물 담체 보고서'
+};
+const ids = {
+  vi:["vi-purpose","vi-scope","vi-current","vi-solution","vi-compare","vi-time","vi-effect","vi-conclusion"],
+  en:["en-purpose","en-scope","en-current","en-solution","en-compare","en-time","en-effect","en-conclusion"],
+  ko:["ko-purpose","ko-scope","ko-current","ko-solution","ko-compare","ko-time","ko-effect","ko-conclusion"]
+};
+function setLang(lang){
+  document.querySelectorAll('.lang-page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+lang).classList.add('active');
+  document.querySelectorAll('.lang-btn').forEach(b=>b.classList.toggle('active', b.dataset.lang===lang));
+  document.getElementById('brandText').textContent = brandText[lang];
+  const toc = document.getElementById('toc');
+  toc.innerHTML = tocText[lang].map((t,i)=>`<a href="#${ids[lang][i]}">${t}</a>`).join('');
+  document.documentElement.lang = lang === 'ko' ? 'ko' : lang;
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('.lang-btn').forEach(btn=>btn.addEventListener('click',()=>setLang(btn.dataset.lang)));
+setLang('vi');
+</script>
+<script>const IMGS={1:"data:image/jpeg;base64,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
