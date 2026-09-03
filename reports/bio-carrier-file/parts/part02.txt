@@ -1,0 +1,175 @@
+rid">
+    <div class="effect"><strong>More stable TN</strong>Supports a wider safety margin for Total Nitrogen.</div>
+    <div class="effect"><strong>Lower clogging risk</strong>Fiber media does not freely drift into pipes, pumps, or MBR.</div>
+    <div class="effect"><strong>Lower additional cost</strong>Reduces the risk of unclogging, repair, and replacement of lost carrier media.</div>
+    <div class="effect"><strong>Support discharge compliance</strong>Improves system stability and TN safety margin.</div>
+  </div>
+</section>
+
+<section id="en-conclusion">
+  <h2 class="section-title">8. CONCLUSION</h2>
+  <div class="conclusion">
+    <div class="final-box">
+      <h3>PROPOSAL: SELECT FIBER CARRIER</h3>
+      <p><b>Reason 1:</b> better suited to support Total Nitrogen improvement.</p>
+      <p><b>Reason 2:</b> fixed structure means almost no drifting, reducing clogging risk for pipes, pumps, and MBR.</p>
+      <p><b>Reason 3:</b> suitable for application in the Aerotank and Anoxic tanks at Factory 1 wastewater treatment plant.</p>
+    </div>
+    <div class="rank-box">
+      <h3>Priority</h3>
+      <div class="rank-item"><div class="rank-no">1</div><div><b>Fiber carrier</b><br>Recommended for implementation.</div></div>
+      <div class="rank-item"><div class="rank-no">2</div><div><b>Spherical carrier</b><br>Intermediate option.</div></div>
+      <div class="rank-item"><div class="rank-no">3</div><div><b>Small attached-growth carrier</b><br>Not recommended to continue.</div></div>
+    </div>
+  </div>
+</section>
+</div>
+  <div class="lang-page" id="page-ko">
+<div class="cover">
+  <h1>미생물 담체 개선 및 교체 제안</h1>
+  <p>목적: 폐수처리장의 현재 2가지 문제를 해결하기 위함.</p>
+  <div class="quick">
+    <div class="quick-card issue"><strong>문제 1: 총질소(TN) 농도 높음</strong>TN이 방류 기준에 근접 → 추가 처리 없이 안정적으로 관리할 수 있는 여유가 필요함.</div>
+    <div class="quick-card risk"><strong>문제 2: 현재 담체 파손 및 유출</strong>파손된 담체 조각이 배관·펌프 막힘 및 MBR 막에 영향을 줄 가능성이 있음.</div>
+  </div>
+</div>
+
+<section id="ko-purpose">
+  <h2 class="section-title">1. 목적</h2>
+  <div class="purpose-grid">
+    <div class="purpose-item"><div class="purpose-no">1</div><strong>높은 총질소 위험 감소</strong>방류 기준 대비 안전 여유 확보.</div>
+    <div class="purpose-item"><div class="purpose-no">2</div><strong>담체의 설비 유입 방지</strong>배관, 펌프 및 MBR 막 막힘 위험 감소.</div>
+    <div class="purpose-item"><div class="purpose-no">3</div><strong>추가 비용 발생 최소화</strong>막힘 제거, 수리 및 추가 폐수처리 비용 위험 감소.</div>
+  </div>
+</section>
+
+<section id="ko-scope">
+  <h2 class="section-title">2. 적용 범위</h2>
+  <p class="section-note">1공장 폐수처리장의 미생물 담체 보충/변경에 적용.</p>
+  <div class="scope-grid">
+    <div class="scope-card">
+      <div class="scope-photo"><img src="" data-img="1" alt="Aerotank"></div>
+      <div class="scope-body">
+        <h3>Aerotank 조</h3>
+        <p>적용 구역 1: 1공장 폐수처리장 Aerotank 조.</p>
+      </div>
+    </div>
+    <div class="scope-card">
+      <div class="scope-photo"><img src="" data-img="2" alt="Anoxic"></div>
+      <div class="scope-body">
+        <h3>Anoxic 조</h3>
+        <p>적용 구역 2: 1공장 폐수처리장 Anoxic 조.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ko-current">
+  <h2 class="section-title">3. 현재 상태</h2>
+  <div class="status-grid">
+    <div class="status problem1"><h3>A. 총질소 농도 높음</h3><ul><li>암모니아성 질소(NH₄⁺)는 현재 양호하게 처리되고 있음.</li><li>하지만 총질소(TN)는 여전히 높고 기준에 근접함.</li><li>TN이 더 상승할 경우 → 운전 조정 또는 추가 처리가 필요할 수 있음.</li></ul></div>
+    <div class="status problem2"><h3>B. 현재 담체 파손 / 유출</h3><ul><li>현재 소형 부착성 미생물 담체를 사용 중임.</li><li>운전 중 담체 파손이 실제로 발생함.</li><li>작은 조각이 물과 함께 이동 → 배관, 펌프 및 MBR 막힘 위험.</li></ul></div>
+  </div>
+  <div class="simple-flow">
+    <div class="flow-box"><b>현재</b>NH₄⁺ 처리 양호</div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-box"><b>남은 문제</b>TN 여전히 높음</div>
+    <div class="flow-arrow">+</div>
+    <div class="flow-box"><b>설비 위험</b>담체 파손 / 유출</div>
+  </div>
+</section>
+
+<section id="ko-solution">
+  <h2 class="section-title">4. 개선안 — 3종 미생물 담체 비교</h2>
+  <p class="section-note">각 담체는 <b>쉽게 설명 → 장점 → 단점</b> 순서로 정리함.</p>
+  <div class="solution-grid">
+    <div class="media-card">
+      <div class="media-photo"><img src="" data-img="3" alt="sphere"></div>
+      <div class="media-body">
+        <h3>1. 구형 담체</h3>
+        <div class="media-desc"><b>쉽게 설명:</b> 현재 담체보다 크기가 큰 이동식 담체.</div>
+        <div class="box-label good">장점</div>
+        <ul><li>보충 및 교체가 쉬움.</li><li>크기가 커서 작은 틈으로 빠져나갈 가능성이 낮음.</li><li>질소 처리 미생물 성장에 도움을 줄 수 있음.</li></ul>
+        <div class="box-label bad">단점</div>
+        <ul><li>이동식 담체이므로 유출 가능성은 남아 있음.</li><li>담체 유출 방지 스크린 필요.</li><li>탱크 밖으로 유출되면 여전히 막힘을 유발할 수 있음.</li></ul>
+        <div class="result-tag">평가: 중간 대안</div>
+      </div>
+    </div>
+
+    <div class="media-card recommend">
+      <div class="media-photo contain"><img src="" data-img="4" alt="fiber"></div>
+      <div class="media-body">
+        <h3>2. 섬유형 담체</h3>
+        <div class="media-desc"><b>쉽게 설명:</b> 섬유를 프레임에 고정하여 탱크 안에서 자유롭게 움직이지 않음.</div>
+        <div class="box-label good">장점</div>
+        <ul><li>확실히 고정하면 거의 유출되지 않음.</li><li>배관, 펌프, MBR 막힘 위험이 매우 낮음.</li><li>미생물이 안정적으로 부착되어 TN 저감에 유리함.</li><li>Aerotank 및 Anoxic 조에 적용하기 적합함.</li></ul>
+        <div class="box-label bad">단점</div>
+        <ul><li>고정 프레임 설치 필요.</li><li>섬유 간격을 적절히 배치해야 함.</li><li>이동식 담체보다 초기 설치 시간이 더 필요함.</li></ul>
+        <div class="result-tag best">평가: 우선 추천안</div>
+      </div>
+    </div>
+
+    <div class="media-card">
+      <div class="media-photo"><img src="" data-img="5" alt="small"></div>
+      <div class="media-body">
+        <h3>3. 소형 부착성 담체</h3>
+        <div class="media-desc"><b>쉽게 설명:</b> 현재 사용 중인 담체.</div>
+        <div class="box-label good">장점</div>
+        <ul><li>미생물 부착이 쉬움.</li><li>탱크에 추가 투입하기 쉬움.</li><li>현재 암모니아 처리에는 양호하게 기여하고 있음.</li></ul>
+        <div class="box-label bad">단점</div>
+        <ul><li>이미 파손 현상이 발생함.</li><li>작은 조각이 배관으로 유입되기 쉬움.</li><li>펌프 막힘 및 MBR 막에 영향을 줄 수 있음.</li></ul>
+        <div class="result-tag no">평가: 계속 사용 비추천</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ko-compare">
+  <h2 class="section-title">5. 비교</h2>
+  <table>
+    <thead>
+      <tr><th>관리 관점</th><th>구형</th><th>섬유형</th><th>현재 소형 담체</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>총질소 저감 지원</td><td class="medium">보통</td><td class="good">좋음</td><td class="medium">보통</td></tr>
+      <tr><td>담체 유출 위험</td><td class="medium">있음</td><td class="good">매우 낮음</td><td class="bad">높음 / 이미 발생</td></tr>
+      <tr><td>배관·펌프·MBR 막힘 위험</td><td class="medium">있음</td><td class="good">매우 낮음</td><td class="bad">높음</td></tr>
+      <tr><td>추가 비용 발생 위험</td><td class="medium">보통</td><td class="good">낮음</td><td class="bad">높음</td></tr>
+      <tr><td><b>종합 평가</b></td><td><b>보통</b></td><td class="good"><b>최적</b></td><td class="bad"><b>고위험</b></td></tr>
+    </tbody>
+  </table>
+
+  <div class="chart-wrap">
+    <div class="chart-title">막대그래프 — 현재 2가지 문제에 대한 적합성</div>
+    <div class="chart-sub">5점 = 가장 적합, 1점 = 가장 부적합.</div>
+    <div class="chart">
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar graybar">3/5</div></div>
+        <div class="bar-name">구형</div>
+        <div class="bar-note">보통</div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar redbar">5/5</div></div>
+        <div class="bar-name">섬유형</div>
+        <div class="bar-note">우선 추천</div>
+      </div>
+      <div class="bar-group">
+        <div class="bar-box"><div class="bar lightbar">2/5</div></div>
+        <div class="bar-name">소형 담체</div>
+        <div class="bar-note">고위험</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ko-time">
+  <h2 class="section-title">6. 예상 설치 기간</h2>
+  <div class="timeline-total">예상 기간: 승인 및 자재 준비 완료 후 약 2주.</div>
+</section>
+
+<section id="ko-effect">
+  <h2 class="section-title">7. 기대 효과</h2>
+  <div class="effect-grid">
+    <div class="effect"><strong>TN 안정성 향상</strong>총질소 기준에 대한 안전 여유 확보에 도움.</div>
+    <div class="effect"><strong>막힘 위험 감소</strong>섬유형 담체는 배관, 펌프, MBR로 자유롭게 이동하지 않음.</div>
+    <div class="effect"><strong>추가 비용 감소</strong>막힘 제거, 설비 수리 및 유실 담체 보충 위험 감소.
